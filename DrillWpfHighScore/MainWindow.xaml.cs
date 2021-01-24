@@ -29,9 +29,9 @@ namespace DrillWpfHighScore
 
         private void SaveScore_Click(object sender, RoutedEventArgs e)
         {
-            // spara resultat i listan scores
+            // spara resultat i listan scores           
 
-            // sortera listan
+            // sortera listan 
             scores.Sort();
 
             // skriv ut top 5 som 
@@ -39,7 +39,6 @@ namespace DrillWpfHighScore
             // 2. Beda 980
             // ...
             // 5. ...
-
         }
     }
 }

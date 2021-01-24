@@ -8,9 +8,9 @@ namespace DrillWpfHighScore
     class Result : IComparable<Result>
     {
         private int score;
-        // lägg till name
 
-        // lägg till konstruktor
+        // konstruktor
+
 
         // property
         public int Score
@@ -21,23 +21,23 @@ namespace DrillWpfHighScore
             }
         }
 
-        // lägg till ToString() eller property Name
+
         public int CompareTo([AllowNull] Result other)
         {
             if (other == null)
             {
                 // this is first
-                return 1;
+                return -1;
             }
             else if (Score > other.Score)
             {
                 // this is first
-                return 1;
+                return -1;
             }
             else
             {
                 // other is first
-                return -1;
+                return 1;
             }                
         }
     }

@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
         <TextBlock Text="Namn" />
-        <TextBox Name="Name" />
+        <TextBox Name="PlayerName" />
         <TextBlock Text="Poäng" />
         <TextBox Name="Score" />
         <Button Name="SaveScore" Content="Save Score" Click="SaveScore_Click" />
